@@ -1,0 +1,6 @@
+docker build --tag=spring-boot-demo-test:latest .
+
+
+docker run -p 8080:8080 spring-boot-demo-test:latest .
+
+
