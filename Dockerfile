@@ -8,10 +8,6 @@ ADD ./src src/
 
 RUN gradle build
 
-##############
-# https://www.alibabacloud.com/help/en/container-registry/latest/build-an-image-for-a-java-application-by-using-a-dockerfile-with-multi-stage-builds
-
-
 # Second stage: minimal runtime environment
 FROM eclipse-temurin:17
 
